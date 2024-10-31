@@ -20,7 +20,7 @@ struct Club
 
 void RegistrarMiembro(std::vector<Club>& clubes, int n);
 void ListarMiembros(const std::vector<Club>& clubes, int n);
-void ContarMiembros(const std::queue<Club>& clubes, int n);
+void ContarMiembros(const std::vector<Club>& clubes, int n);
 
 bool idExistente(const std::vector<Club>& clubes, const std::string& id){
     for (const Club& club : clubes) {
